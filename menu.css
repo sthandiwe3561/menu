@@ -1,0 +1,13 @@
+div.container {
+  margin-top: 100px;
+}
+.image {
+  height: 120vh;
+}
+.paragraph {
+  margin-bottom: 280px;
+  font-size: 49px;
+}
+.paragraph h2 {
+  font-size: 60px;
+}
