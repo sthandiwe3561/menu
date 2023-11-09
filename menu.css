@@ -36,6 +36,12 @@ i {
   color: #fff;
   padding: 10px 20px;
 }
+button {
+  margin-left: 8px;
+  margin-right: 8px;
+  border-radius: 100px;
+  padding: 10px 40px;
+}
 .block {
   border-radius: 4px;
   border: 1px solid var(--secondary-color);
@@ -67,7 +73,10 @@ i {
   font-weight: bold;
   color: #fff;
 }
-
+.buttons {
+  margin-top: 30px;
+  text-align: center;
+}
 .button2 {
   margin-top: 30px;
   border-radius: 4px;
@@ -104,4 +113,8 @@ i {
 }
 .paragraph h2 {
   font-size: 60px;
+}
+#starter {
+  background-color: #a28557;
+  color: #fff;
 }
