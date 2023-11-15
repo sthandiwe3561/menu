@@ -22,6 +22,9 @@
     ></script>
     <link rel="stylesheet" href="menu.css" />
     <title>Document</title>
+
+    
+
   </head>
   
   <body>
@@ -42,16 +45,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#main">Menu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
+              <a class="nav-link" href="#service">Service</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Service</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Reservation</a>
+              <a class="nav-link" href="#reservation">Reservation</a>
             </li>
           </ul>
         </div>
@@ -136,13 +136,12 @@
     <div class="menu"  id="time">
       <h1>EXPLORE OUR MENU</h1>
       <P>Get to more then 50 menu items that will </br>make your taste buds want even more,</br> press below button for more food item</P>
-      <a href="" class="btn">More Items</a>
+      <a href="#main" class="btn">More Items</a>
     </div>
     <div class="buttons">
-<div id="namme"></div>
     <button id="starter">starter</button>
-   <button >main</button> 
-    <button>dessert</button>
+   <button id="menu">main</button> 
+    <button id="desserts">dessert</button>
     </div>
     <div class="container" id="main">
       <div class="row">
@@ -196,10 +195,10 @@
         </div>
       </div>
     </div>
-    <div class="reservation">
+    <div id="reservation">
       <h1>Make Reservation</h1>
-      <form action="submit">
-        <div class="row text-email">
+      <form action="submit" class="form">
+        <div class="row">
         <div class=" col text">
         <input type="text" 
         placeholder="Full Name"
@@ -218,27 +217,26 @@
                   <div class="row date-time">
                   <div class="col date">
                     <input type="date" 
-        placeholder="email address"
                   class="form-control"
-                  id="email"
+                  id="date"
                   autocomplete="off"/>
                 </div>
                   <div class="col time">
                     <input type="time" 
-        placeholder="email address"
                   class="form-control"
-                  id="email"
+                  id="time"
                   autocomplete="off"/>
                 </div>
                 </div>
                 <div class="text-area">
                 <textarea name="" id="" class="w-100 form-control" cols="30" rows="5" placeholder="Special Request"></textarea>
                </div>
-               <a href="" class="btn button2" id="link">submit</a>
+                <input type="submit" class="btn button2" id="on">
       </form>
     </div>
-
-    <div class="row container2">
+<div id="response"></div>
+<div class="container2" id="service">
+    <div class="row ">
       <div class=" col-sm-4 block">
         <i class="fa-solid fa-wifi"></i>
         <h2>Free Wi-Fi</h2>
@@ -264,11 +262,17 @@
               </p>
       </div>
     </div>
+    </div>
     <script src="menu.js"></script>
+    <script src="dessert.js"></script>
+    <script src="main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <footer>
+      
+    </footer>
   </body>
 </html>
