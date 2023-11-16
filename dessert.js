@@ -9,7 +9,7 @@ let image = `<div class="dessert">
             <div class="card-body">
               <h5 class="card-title" id="card-text1"> Chocolate Cake</h5>
               <p class="card-text">
-                The Best Chocolate Cake combines cocoa and coffee to create a chocolate dream. The rich buttercream frosting makes it perfect!
+                The Best Chocolate Cake combines cocoa and coffee to create a chocolate dream. The rich buttercream frosting makes it perfect! <br> <div class="price">R50.00</div>
               </p>
             </div>
           </div>
@@ -20,7 +20,7 @@ let image = `<div class="dessert">
             <div class="card-body">
               <h5 class="card-title" id="card-text2">Tiramisu</h5>
               <p class="card-text">
-            Luscious mascarpone cream with soft coffee soaked lady fingers and a generous dust of cocoa powder.
+            Luscious mascarpone cream with soft coffee soaked lady fingers and a generous dust of cocoa powder.<br> <div class="price">R100.00</div>
               </p>
             </div>
           </div>
@@ -31,7 +31,7 @@ let image = `<div class="dessert">
             <div class="card-body">
               <h5 class="card-title" id="card-text3">Keto panna cotta</h5>
               <p class="card-text">
-                This keto panna cotta is a low carb and sugar free take on the classic Italian dessert!
+                This keto panna cotta is a low carb and sugar free take on the classic Italian dessert!<br> <div class="price">R113.00</div>
               </p>
             </div>
           </div>
@@ -42,7 +42,7 @@ let image = `<div class="dessert">
             <div class="card-body">
               <h5 class="card-title" id="card-text4">Boston Cream Donuts </h5>
               <p class="card-text">
-                Fluffy Boston Cream Donuts are stuffed with pastry cream filling and dipped in a rich chocolate glaze!
+                Fluffy Boston Cream Donuts are stuffed with pastry cream filling and dipped in a rich chocolate glaze!<br> <div class="price">R60.00</div>
               </p>
             </div>
           </div>

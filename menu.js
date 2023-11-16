@@ -19,7 +19,7 @@ let start = `<div class="container">
               <p class="card-text">
                 gorgeous roasted sweet potato rounds as a vegetarian starter
                 with real wow factor.They are topped with creamy whipped feta,
-                juicy figs and a sticky, sweet balsamic glaze. | Tesco
+                juicy figs and a sticky, sweet balsamic glaze. | Tesco <br> <div class="price">R133.00</div>
               </p>
             </div>
           </div>
@@ -40,7 +40,7 @@ let start = `<div class="container">
                 Crisp outside and a juicy inside, these Crispy Coconut Prawns
                 are perfection. The prawns are dipped in seasoned flour and then
                 breaded with panko and desiccated coconut. Served with crispy
-                juicy prawns with sweet chilli dip
+                juicy prawns with sweet chilli dip <br> <div class="price">R110.00</div>
               </p>
             </div>
           </div>
@@ -58,7 +58,7 @@ let start = `<div class="container">
               <p class="card-text">
                 A lip smacking steamed dumpling with whole wheat flour, simple
                 filling of cabbage, onions and carrots. Serve these momos along
-                with spicy momo chutney!
+                with spicy momo chutney! <br> <div class="price">R93.00</div>
               </p>
             </div>
           </div>
@@ -75,7 +75,7 @@ let start = `<div class="container">
               <h5 class="card-title" id="card-text4">CHICKEN 65</h5>
               <p class="card-text">
                 Chicken 65 is an Indian style fried chicken, a popular chicken
-                starter recipe. Classic Indian chicken snack!
+                starter recipe. Classic Indian chicken snack! <br> <div class="price">R106.00</div>
               </p>
             </div>
           </div>

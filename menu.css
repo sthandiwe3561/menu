@@ -9,6 +9,12 @@ h2 {
   margin-left: 30px;
   margin-top: 10px;
 }
+h5 {
+  font-size: 30px;
+}
+div.card {
+  background-color: var(--primary-color);
+}
 div.reservation {
   margin-top: 30px;
 }
@@ -23,12 +29,22 @@ div.container {
 div.text-email {
   margin-bottom: 30px;
 }
+div.body2 {
+  background-color: burlywood;
+}
+div.icon {
+  text-align: center;
+}
+div.price {
+  font-weight: bold;
+  font-size: 20px;
+}
 form {
   width: 60%;
   display: block;
   margin: 0 auto;
 }
-i {
+i.link {
   font-size: 50px;
   margin-left: 68px;
   margin-top: 30px;
@@ -36,11 +52,23 @@ i {
   color: #fff;
   padding: 10px 20px;
 }
+i.footer {
+  margin-top: 30px;
+  font-size: 50px;
+  color: #fff;
+  padding: 10px 20px;
+}
+
 button {
   margin-left: 8px;
   margin-right: 8px;
   border-radius: 100px;
   padding: 10px 40px;
+}
+footer {
+  background-color: black;
+  height: 59vh;
+  margin-top: 20px;
 }
 .block {
   border-radius: 4px;
@@ -107,6 +135,11 @@ button {
 }
 .image {
   height: 130vh;
+}
+.images {
+  height: 100vh;
+  margin-top: 35px;
+  margin-bottom: -50px;
 }
 .paragraph {
   margin-bottom: 280px;
