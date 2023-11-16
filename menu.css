@@ -172,17 +172,33 @@ footer {
   margin: 0 auto;
 }
 @media (max-width: 900px) {
-  i {
-    font-size: 20px;
+  i.link {
+    font-size: 15px;
     margin-left: 1px;
   }
   h2 {
     margin-left: 10px;
     font-size: 20px;
   }
+
+  footer {
+    height: 70vh;
+  }
+  i.footer {
+    font-size: 20px;
+  }
+  div.hours {
+    font-size: 15px;
+  }
+  .images {
+    height: 60vh;
+  }
   .button2 {
     width: 10%;
     font-size: 13px;
     padding: 10px 60px;
+  }
+  .image {
+    height: 50vh;
   }
 }
